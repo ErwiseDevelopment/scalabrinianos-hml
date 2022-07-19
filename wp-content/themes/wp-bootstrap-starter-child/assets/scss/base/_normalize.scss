@@ -1,0 +1,14 @@
+*{ font-family: 'Montserrat', sans-serif; }
+
+html { scroll-behavior: smooth; }
+
+body{ font-size: 100%; }
+
+a,
+input,
+button{
+	&:focus{
+		border: 0 !important;
+		outline: none !important;
+	}
+}

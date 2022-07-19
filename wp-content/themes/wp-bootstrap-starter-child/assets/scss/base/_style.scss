@@ -1,0 +1,17 @@
+body::-webkit-scrollbar {
+    width: 15px;               
+}
+
+body::-webkit-scrollbar-track {
+    background-color: #DBDBDB;        
+}   
+
+body::-webkit-scrollbar-thumb {
+    border: 3px solid #DBDBDB;
+    border-radius: 20px;   
+    background-color: #888;    
+}
+  
+.family-cormorant-garamond {
+    font-family: 'Cormorant Garamond', sans-serif !important;
+}

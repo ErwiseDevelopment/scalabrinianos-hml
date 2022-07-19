@@ -1,0 +1,421 @@
+$utility-name: 'u-border';
+
+.#{$utility-name} {
+    &-none {
+        border: none !important;
+    }
+
+    &-1 {
+        border: 1px solid;
+    }
+
+    &-2 {
+        border: 2px solid;
+    }
+
+    &-y-1 {
+        border-top: 1px solid;
+    }
+
+    &-y-2 {
+        border-top: 2px solid;
+    }
+
+    &-b-1 {
+        border-bottom: 1px solid;
+    }
+
+    &-b-2 {
+        border-bottom: 2px solid;
+    }
+
+    &-l-1 {
+        border-left: 1px solid;
+    }
+
+    &-l-2 {
+        border-left: 2px solid;
+    }
+
+    &-l-8 {
+        border-left: 8px solid;
+    }
+
+    &-r-1 {
+        border-right: 1px solid;
+    }
+
+    &-r-2 {
+        border-right: 2px solid;
+    }
+}
+
+//no last child
+.nolast-child\: {
+    &#{$utility-name} {
+        &:last-child {
+            border: 0 !important;
+        }
+    }
+}
+
+//query sm
+.sm\: {
+    &#{$utility-name} {
+        &-none {
+            @media screen and (min-width: 576px) {
+                border: none !important;
+            }
+        }
+    
+        &-1 {
+            @media screen and (min-width: 576px) {
+                border: 1px solid;
+            }
+        }
+    
+        &-2 {
+            @media screen and (min-width: 576px) {
+                border: 2px solid;
+            }
+        }
+    
+        &-y-1 {
+            @media screen and (min-width: 576px) {
+                border-top: 1px solid;
+            }
+        }
+    
+        &-y-2 {
+            @media screen and (min-width: 576px) {
+                border-top: 2px solid;
+            }
+        }
+    
+        &-b-1 {
+            @media screen and (min-width: 576px) {
+                border-bottom: 1px solid;   
+            }
+        }
+    
+        &-b-2 {
+            @media screen and (min-width: 576px) {
+                border-bottom: 2px solid;
+            }
+        }
+    
+        &-l-1 {
+            @media screen and (min-width: 576px) {
+                border-left: 1px solid;
+            }
+        }
+    
+        &-l-2 {
+            @media screen and (min-width: 576px) {
+                border-left: 2px solid;
+            }
+        }
+
+        &-l-8 {
+            @media screen and (min-width: 576px) {
+                border-left: 8px solid;
+            }
+        }
+    
+        &-r-1 {
+            @media screen and (min-width: 576px) {
+                border-right: 1px solid;
+            }
+        }
+    
+        &-r-2 {
+            @media screen and (min-width: 576px) {
+                border-right: 2px solid;
+            }
+        }
+    }
+}
+
+//query md
+.md\: {
+    &#{$utility-name} {
+        &-none {
+            @media screen and (min-width: 768px) {
+                border: none !important;
+            }
+        }
+    
+        &-1 {
+            @media screen and (min-width: 768px) {
+                border: 1px solid;
+            }
+        }
+    
+        &-2 {
+            @media screen and (min-width: 768px) {
+                border: 2px solid;
+            }
+        }
+    
+        &-y-1 {
+            @media screen and (min-width: 768px) {
+                border-top: 1px solid;
+            }
+        }
+    
+        &-y-2 {
+            @media screen and (min-width: 768px) {
+                border-top: 2px solid;
+            }
+        }
+    
+        &-b-1 {
+            @media screen and (min-width: 768px) {
+                border-bottom: 1px solid;   
+            }
+        }
+    
+        &-b-2 {
+            @media screen and (min-width: 768px) {
+                border-bottom: 2px solid;
+            }
+        }
+    
+        &-l-1 {
+            @media screen and (min-width: 768px) {
+                border-left: 1px solid;
+            }
+        }
+    
+        &-l-2 {
+            @media screen and (min-width: 768px) {
+                border-left: 2px solid;
+            }
+        }
+    
+        &-r-1 {
+            @media screen and (min-width: 768px) {
+                border-right: 1px solid;
+            }
+        }
+    
+        &-r-2 {
+            @media screen and (min-width: 768px) {
+                border-right: 2px solid;
+            }
+        }
+    }
+}
+
+//query lg
+.lg\: {
+    &#{$utility-name} {
+        &-none {
+            @media screen and (min-width: 992px) {
+                border: none !important;
+            }
+        }
+    
+        &-1 {
+            @media screen and (min-width: 992px) {
+                border: 1px solid;
+            }
+        }
+    
+        &-2 {
+            @media screen and (min-width: 992px) {
+                border: 2px solid;
+            }
+        }
+    
+        &-y-1 {
+            @media screen and (min-width: 992px) {
+                border-top: 1px solid;
+            }
+        }
+    
+        &-y-2 {
+            @media screen and (min-width: 992px) {
+                border-top: 2px solid;
+            }
+        }
+    
+        &-b-1 {
+            @media screen and (min-width: 992px) {
+                border-bottom: 1px solid;   
+            }
+        }
+    
+        &-b-2 {
+            @media screen and (min-width: 992px) {
+                border-bottom: 2px solid;
+            }
+        }
+    
+        &-l-1 {
+            @media screen and (min-width: 992px) {
+                border-left: 1px solid;
+            }
+        }
+    
+        &-l-2 {
+            @media screen and (min-width: 992px) {
+                border-left: 2px solid;
+            }
+        }
+    
+        &-r-1 {
+            @media screen and (min-width: 992px) {
+                border-right: 1px solid;
+            }
+        }
+    
+        &-r-2 {
+            @media screen and (min-width: 992px) {
+                border-right: 2px solid;
+            }
+        }
+    }
+}
+
+//query xl
+.xl\: {
+    &#{$utility-name} {
+        &-none {
+            @media screen and (min-width: 1200px) {
+                border: none !important;
+            }
+        }
+    
+        &-1 {
+            @media screen and (min-width: 1200px) {
+                border: 1px solid;
+            }
+        }
+    
+        &-2 {
+            @media screen and (min-width: 1200px) {
+                border: 2px solid;
+            }
+        }
+    
+        &-y-1 {
+            @media screen and (min-width: 1200px) {
+                border-top: 1px solid;
+            }
+        }
+    
+        &-y-2 {
+            @media screen and (min-width: 1200px) {
+                border-top: 2px solid;
+            }
+        }
+    
+        &-b-1 {
+            @media screen and (min-width: 1200px) {
+                border-bottom: 1px solid;   
+            }
+        }
+    
+        &-b-2 {
+            @media screen and (min-width: 1200px) {
+                border-bottom: 2px solid;
+            }
+        }
+    
+        &-l-1 {
+            @media screen and (min-width: 1200px) {
+                border-left: 1px solid;
+            }
+        }
+    
+        &-l-2 {
+            @media screen and (min-width: 1200px) {
+                border-left: 2px solid;
+            }
+        }
+    
+        &-r-1 {
+            @media screen and (min-width: 1200px) {
+                border-right: 1px solid;
+            }
+        }
+    
+        &-r-2 {
+            @media screen and (min-width: 1200px) {
+                border-right: 2px solid;
+            }
+        }
+    }
+}
+
+//query xxl
+.xxl\: {
+    &#{$utility-name} {
+        &-none {
+            @media screen and (min-width: 1600px) {
+                border: none !important;
+            }
+        }
+    
+        &-1 {
+            @media screen and (min-width: 1600px) {
+                border: 1px solid;
+            }
+        }
+    
+        &-2 {
+            @media screen and (min-width: 1600px) {
+                border: 2px solid;
+            }
+        }
+    
+        &-y-1 {
+            @media screen and (min-width: 1600px) {
+                border-top: 1px solid;
+            }
+        }
+    
+        &-y-2 {
+            @media screen and (min-width: 1600px) {
+                border-top: 2px solid;
+            }
+        }
+    
+        &-b-1 {
+            @media screen and (min-width: 1600px) {
+                border-bottom: 1px solid;   
+            }
+        }
+    
+        &-b-2 {
+            @media screen and (min-width: 1600px) {
+                border-bottom: 2px solid;
+            }
+        }
+    
+        &-l-1 {
+            @media screen and (min-width: 1600px) {
+                border-left: 1px solid;
+            }
+        }
+    
+        &-l-2 {
+            @media screen and (min-width: 1600px) {
+                border-left: 2px solid;
+            }
+        }
+    
+        &-r-1 {
+            @media screen and (min-width: 1600px) {
+                border-right: 1px solid;
+            }
+        }
+    
+        &-r-2 {
+            @media screen and (min-width: 1600px) {
+                border-right: 2px solid;
+            }
+        }
+    }
+}

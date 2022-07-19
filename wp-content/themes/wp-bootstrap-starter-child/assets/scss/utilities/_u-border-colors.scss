@@ -1,0 +1,138 @@
+$utility-name: 'u-border-color';
+
+.#{$utility-name} {
+    &-black {
+        border-color: $color-folk-black;
+    }
+
+    &-dark-cyan {
+        border-color: $color-folk-dark-cyan;
+    }
+
+    &-persian-plum {
+        border-color: $color-folk-persian-plum !important;
+    }
+
+    &-white {
+        border-color: $color-folk-white;
+    }
+}
+
+//before
+.before\:\: {
+    &#{$utility-name} {
+        &-black {
+            &::before {
+                border-color: $color-folk-black !important;
+            }
+        }
+
+        &-white {
+            &::before {
+                border-color: $color-folk-white !important;
+            }
+        }
+    }
+}
+
+//after
+.after\:\: {
+    &#{$utility-name} {
+        &-black {
+            &::after {
+                border-color: $color-folk-black !important;
+            }
+        }
+
+        &-white {
+            &::after {
+                border-color: $color-folk-white !important;
+            }
+        }
+    }
+}
+
+//query sm
+.sm\: {
+    &#{$utility-name} {
+        &-black {
+            @media screen and (min-width: 576px) {
+                border-color: $color-folk-black !important;
+            }
+        }
+
+        &-white{
+            @media screen and (min-width: 576px) {
+                border-color: $color-folk-white!important;
+            }
+        }
+    }
+}
+
+//query md
+.md\: {
+    &#{$utility-name} {
+        &-black {
+            @media screen and (min-width: 768px) {
+                border-color: $color-folk-black !important;
+            }
+        }
+
+        &-white{
+            @media screen and (min-width: 768px) {
+                border-color: $color-folk-white!important;
+            }
+        }
+    }
+}
+
+//query lg
+.lg\: {
+    &#{$utility-name} {
+        &-black {
+            @media screen and (min-width: 992px) {
+                border-color: $color-folk-black !important;
+            }
+        }
+
+        &-white{
+            @media screen and (min-width: 992px) {
+                border-color: $color-folk-white!important;
+            }
+        }
+    }
+}
+
+//query xl
+.xl\: {
+    &#{$utility-name} {
+        &-black {
+            @media screen and (min-width: 1200px) {
+                border-color: $color-folk-black !important;
+            }
+        }
+
+        &-white{
+            @media screen and (min-width: 1200px) {
+                border-color: $color-folk-white!important;
+            }
+        }
+    }
+}
+
+//query xxl
+.xxl\: {
+    &#{$utility-name} {
+        &-black {
+            @media screen and (min-width: 1600px) {
+                border-color: $color-folk-black !important;
+            }
+        }
+
+        &-white{
+            @media screen and (min-width: 1600px) {
+                border-color: $color-folk-white!important;
+            }
+        }
+    }
+}

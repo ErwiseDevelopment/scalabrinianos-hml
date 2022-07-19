@@ -1,0 +1,32 @@
+$layout-name: 'l-box-banner';
+
+.#{$layout-name} {
+    &__box {
+        height: 265px;
+        background-image: url(../images/banner-pequeno.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &__title {
+            font-size: 2.5rem;
+            font-family: 'Cormorant Garamond', serif;
+
+            &--highlight {
+                font-size: 5rem;
+                font-family: 'Cormorant Garamond', serif;
+
+                @media screen and (max-width: 767px) {
+                    font-size: 2.5rem;
+                }
+            }
+        }
+
+        &--highlight {
+            height: 100%;
+            
+            @media screen and (max-width: 767px) {
+                height: 265px !important;
+            }
+        }
+    }
+}

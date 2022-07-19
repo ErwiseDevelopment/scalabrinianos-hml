@@ -1,0 +1,9 @@
+$layout-name: 'l-newsletter';
+
+.#{$layout-name} {
+    background-image: linear-gradient(to left, #2F6845, #008fA3);
+
+    &__title {
+        font-size: 1.625rem;
+    }
+}

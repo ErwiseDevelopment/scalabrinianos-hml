@@ -1,0 +1,24 @@
+$layout-name: 'l-book';
+
+.#{$layout-name} {
+    &__book {
+        font-size: 1.125rem;
+    }
+
+    &__title {
+        font-size: 1.375rem;
+    }
+
+    &__line-center {
+        &::before {
+            content: '';
+            width: 90%;
+            height: 1px;
+            top: 50%;
+            right: 5%;
+            transform: translateY(-50%);
+            position: absolute;
+            background-color: #EDE9E5;
+        }
+    }
+}

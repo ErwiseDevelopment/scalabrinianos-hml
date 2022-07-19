@@ -1,0 +1,25 @@
+.swiper-pagination-special-content {
+    .swiper-pagination-bullet {
+        margin: 0 .5rem;
+        background-color: #2F6745;
+    }
+}
+
+.swiper-pagination-gallery-miniature {
+    @media screen and (min-width: 1200px) {
+        width: 100%;
+    }
+
+    @media screen and (max-width: 991px) {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .swiper-pagination-bullet {
+        background-color: $color-folk-white;
+
+        @media screen and (max-width: 767px) {
+            margin: 0 .5rem;
+        }
+    }
+}

@@ -1,0 +1,83 @@
+$utility-name: 'u-outline';
+
+.#{$utility-name} {
+    &-none {
+        outline: none !important;
+    }
+}
+
+.before\:\: {
+    &#{$utility-name} {
+        &-none {
+            &::before {
+                outline: none !important;
+            }
+        }
+    }
+}
+
+.after\:\: {
+    &#{$utility-name} {
+        &-none {
+            &::after {
+                outline: none !important;
+            }
+        }
+    }
+}
+
+//query sm
+.sm\: {
+    &#{$utility-name} {
+        &-none {
+            @media screen and (min-width: 576px) {
+                outline: none !important;
+            }
+        }
+    }
+}
+
+//query md
+.md\: {
+    &#{$utility-name} {
+        &-none {
+            @media screen and (min-width: 768px) {
+                outline: none !important;
+            }
+        }
+    }
+}
+
+//query lg
+.lg\: {
+    &#{$utility-name} {
+        &-none {
+            @media screen and (min-width: 992px) {
+                outline: none !important;
+            }
+        }
+    }
+}
+
+//query xl
+.xl\: {
+    &#{$utility-name} {
+        &-none {
+            @media screen and (min-width: 1200px) {
+                outline: none !important;
+            }
+        }
+    }
+}
+
+//query xll
+.xll\: {
+    &#{$utility-name} {
+        &-none {
+            @media screen and (min-width: 1600px) {
+                outline: none !important;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,123 @@
+$layout-name: 'l-template-santos';
+
+.#{$layout-name} {
+    &__list-page {
+        .page_item {
+            margin: .5rem 0;
+            list-style: none;
+
+            a {
+                padding: 1rem;
+                border-radius: 1rem;  
+                display: block;  
+                font-size: 1.375rem;
+                font-weight: bold;
+                text-align: right;
+                text-decoration: none;
+                color: $color-folk-white;
+                background-color: $color-folk-cyan;
+
+                @media screen and (max-width: 991px) {
+                    text-align: center;
+                }
+
+                &.is-active,
+                &:hover {
+                    background-color: $color-folk-bright-orange;
+                }
+            }
+
+            @media screen and(min-width: 1600px) {
+                font-size: 1.6875rem;
+            }
+        }
+    }
+
+    &__title {
+        font-size: 3rem;
+
+        @media screen and (min-width: 1600px) {
+            font-size: 3.875rem;
+        }
+
+        @media screen and (max-width: 575px) {
+            font-size: 2rem;
+        }
+
+        &::before {
+            content: '';
+            width: 180px;
+            height: 10px;
+            top: 100%;
+            left: 50%;
+            transform: translateX(-50%);
+            position: absolute;
+            background-color: $color-folk-night-rider;
+        }
+    }
+
+    &__prayer {
+        background-size: cover;
+        background-repeat: no-repeat;
+
+        &__title {
+            font-size: 2rem;
+
+            @media screen and (min-width: 1600px) {
+                font-size: 3rem;
+            }
+
+            @media screen and (max-width: 991px) {
+                font-size: 1.375rem;
+            }
+        }
+
+        &__description {
+            font-size: 1.375rem;
+
+            @media screen and (min-width: 1600px) {
+                font-size: 1.875rem;
+            }
+
+            @media screen and (max-width: 991px) {
+                font-size: 1rem;
+            }
+        }
+    }
+
+    &__subtitle {
+        font-size: 2.5rem;
+        
+        @media screen and (min-width: 1600px) {
+            font-size: 3.5rem;
+        }
+
+        @media screen and (max-width: 991px) {
+            font-size: 1.75rem;
+        }
+    }
+
+    &__item {
+        &:nth-of-type(odd) {
+            .#{$layout-name} {
+                &__col-child {
+                    &:nth-of-type(odd) {
+                        order: 2;
+
+                        @media screen and (max-width: 991px) {
+                            order: 1;
+                        }
+                    }
+
+                    &:nth-of-type(even) {
+                        order: 1;
+
+                        @media screen and (max-width: 991px) {
+                            order: 2;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

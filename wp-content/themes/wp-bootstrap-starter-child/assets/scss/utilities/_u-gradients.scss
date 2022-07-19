@@ -1,0 +1,7 @@
+$utility-name: 'u-gradient';
+
+.#{$utility-name} {
+    &-fire-brick-w-dull-red {
+        background-image: linear-gradient(to right, $color-folk-fire-brick, $color-folk-dull-red);
+    }
+}

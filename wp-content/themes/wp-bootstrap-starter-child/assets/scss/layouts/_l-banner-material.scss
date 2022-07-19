@@ -1,0 +1,12 @@
+$layout-name: 'l-banner-material';
+
+.#{$layout-name} {
+    &__box {
+        width: 50%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        position: absolute;
+        background-color: rgba(255, 0, 0, .2);
+    }
+}

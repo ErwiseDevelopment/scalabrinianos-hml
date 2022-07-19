@@ -1,0 +1,88 @@
+$utility-name: 'u-font-style';
+
+.#{$utility-name} {
+    &-italic {
+        font-style: italic !important;
+    }
+}
+
+.before\:\: {
+    &#{$utility-name} {
+        &-italic {
+            &::before {
+                font-style: italic !important;
+            }
+        }   
+    }
+}
+
+.after\:\: {
+    &#{$utility-name} {
+        &-italic {
+            &::after {
+                font-style: italic !important;
+            }
+        }   
+    }
+}
+
+.hover\: {
+    &#{$utility-name} {
+        &-italic {
+            &:hover {
+                font-style: italic !important;
+            }
+        }   
+    }
+}
+
+//query sm
+.sm\: {
+    &#{$utility-name} {
+        &-italic {
+            @media screen and (min-width: 576px) {
+                font-style: italic !important;
+            }
+        }   
+    }
+}
+
+.md\: {
+    &#{$utility-name} {
+        &-italic {
+            @media screen and (min-width: 768px) {
+                font-style: italic !important;
+            }
+        }   
+    }
+}
+
+.lg\: {
+    &#{$utility-name} {
+        &-italic {
+            @media screen and (min-width: 992px) {
+                font-style: italic !important;
+            }
+        }   
+    }
+}
+
+.xl\: {
+    &#{$utility-name} {
+        &-italic {
+            @media screen and (min-width: 1200px) {
+                font-style: italic !important;
+            }
+        }   
+    }
+}
+
+.xxl\: {
+    &#{$utility-name} {
+        &-italic {
+            @media screen and (min-width: 1600px) {
+                font-style: italic !important;
+            }
+        }   
+    }
+}

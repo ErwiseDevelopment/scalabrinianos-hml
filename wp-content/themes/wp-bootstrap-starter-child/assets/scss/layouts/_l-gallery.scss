@@ -1,0 +1,55 @@
+$layout-name: 'l-gallery';
+
+.#{$layout-name} {
+    background-image: linear-gradient(to right, #2F6845, #008fA3);
+
+    &__card {
+        height: 266px;
+
+        &::before {
+            content: '';
+            width: 100%;
+            height: 100%;
+            top: 0;
+            left: 0;
+            position: absolute;
+            background-image: linear-gradient(to top, $color-folk-black, transparent);
+        }
+
+        &:hover {
+            .#{$layout-name} {
+                &__card {
+                    &-title {
+                        transform: translateY(-5px);
+                    }
+                }
+            }
+        }
+        
+
+        &-content {
+            bottom: 0;
+            left: 0;
+            position: absolute;
+        }
+
+        &-title {
+            transform: translateY(0);
+            transition: all .4s;
+            font-size: .875rem;
+            font-family: 'Cormorant Garamond', sans-serif;
+        }
+    }
+
+    &__phares {
+        font-size: 2rem;
+
+        @media screen and (max-width: 767px) {
+            font-size: 1.5rem;
+        }
+    }
+
+    &__card-miniature {
+        height: 130px;
+    }
+}

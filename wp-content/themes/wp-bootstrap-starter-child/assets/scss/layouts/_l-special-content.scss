@@ -1,0 +1,14 @@
+$layout-name: 'l-special-content';
+
+.#{$layout-name} {
+    &__card {
+        &-img {
+            height: 195px;
+        }
+        
+        &-title {
+            font-size: 1.125rem;
+            color: #5B5B5B;
+        }
+    }
+}

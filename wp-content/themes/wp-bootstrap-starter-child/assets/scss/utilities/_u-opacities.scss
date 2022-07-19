@@ -1,0 +1,563 @@
+$utility-name: 'u-opacity';
+
+.#{$utility-name} {
+    &-1 {
+        opacity: .1;
+    }
+
+    &-2 {
+        opacity: .2;
+    }
+
+    &-3 {
+        opacity: .3;
+    }
+
+    &-4 {
+        opacity: .4;
+    }
+
+    &-5 {
+        opacity: .5;
+    }
+
+    &-6 {
+        opacity: .6;
+    }
+
+    &-7 {
+        opacity: .7;
+    }
+
+    &-8 {
+        opacity: .8;
+    }
+
+    &-9 {
+        opacity: .9;
+    }
+
+    &-full {
+        opacity: 1;
+    }
+}
+
+//hover 
+.hover\: {
+    &#{$utility-name} {
+        &-1 {
+            &:hover {
+                opacity: .1;
+            }
+        }
+    
+        &-2 {
+            &:hover {
+                opacity: .2;
+            }
+        }
+    
+        &-3 {
+            &:hover {
+                opacity: .3;
+            }
+        }
+    
+        &-4 {
+            &:hover {
+                opacity: .4;
+            }
+        }
+    
+        &-5 {
+            &:hover {
+                opacity: .5;
+            }
+        }
+    
+        &-6 {
+            &:hover {
+                opacity: .6;
+            }
+        }
+    
+        &-7 {
+            &:hover {
+                opacity: .7;
+            }
+        }
+    
+        &-8 {
+            &:hover {
+                opacity: .8;
+            }
+        }
+    
+        &-9 {
+            &:hover {
+                opacity: .9;
+            }
+        }
+    
+        &-full {
+            &:hover {
+                opacity: 1;
+            }
+        }
+    } 
+}
+
+//before 
+.before\:\: {
+    &#{$utility-name} {
+        &-1 {
+            &::before {
+                opacity: .1;
+            }
+        }
+    
+        &-2 {
+            &::before {
+                opacity: .2;
+            }
+        }
+    
+        &-3 {
+            &::before {
+                opacity: .3;
+            }
+        }
+    
+        &-4 {
+            &::before {
+                opacity: .4;
+            }
+        }
+    
+        &-5 {
+            &::before {
+                opacity: .5;
+            }
+        }
+    
+        &-6 {
+            &::before {
+                opacity: .6;
+            }
+        }
+    
+        &-7 {
+            &::before {
+                opacity: .7;
+            }
+        }
+    
+        &-8 {
+            &::before {
+                opacity: .8;
+            }
+        }
+    
+        &-9 {
+            &::before {
+                opacity: .9;
+            }
+        }
+    
+        &-full {
+            &::before {
+                opacity: 1;
+            }
+        }
+    } 
+}
+
+//after 
+.after\:\: {
+    &#{$utility-name} {
+        &-1 {
+            &::after {
+                opacity: .1;
+            }
+        }
+    
+        &-2 {
+            &::after {
+                opacity: .2;
+            }
+        }
+    
+        &-3 {
+            &::after {
+                opacity: .3;
+            }
+        }
+    
+        &-4 {
+            &::after {
+                opacity: .4;
+            }
+        }
+    
+        &-5 {
+            &::after {
+                opacity: .5;
+            }
+        }
+    
+        &-6 {
+            &::after {
+                opacity: .6;
+            }
+        }
+    
+        &-7 {
+            &::after {
+                opacity: .7;
+            }
+        }
+    
+        &-8 {
+            &::after {
+                opacity: .8;
+            }
+        }
+    
+        &-9 {
+            &::after {
+                opacity: .9;
+            }
+        }
+    
+        &-full {
+            &::after {
+                opacity: 1;
+            }
+        }
+    } 
+}
+
+//query sm
+.sm\: {
+    &#{$utility-name} {
+        &-1 {
+            @media screen and (min-width: 576px) {
+                opacity: .1;
+            }
+        }
+    
+        &-2 {
+            @media screen and (min-width: 576px) {
+                opacity: .2;
+            }
+        }
+    
+        &-3 {
+            @media screen and (min-width: 576px) {
+                opacity: .3;
+            }
+        }
+    
+        &-4 {
+            @media screen and (min-width: 576px) {
+                opacity: .4;
+            }
+        }
+    
+        &-5 {
+            @media screen and (min-width: 576px) {
+                opacity: .5;
+            }
+        }
+    
+        &-6 {
+            @media screen and (min-width: 576px) {
+                opacity: .6;
+            }
+        }
+    
+        &-7 {
+            @media screen and (min-width: 576px) {
+                opacity: .7;
+            }
+        }
+    
+        &-8 {
+            @media screen and (min-width: 576px) {
+                opacity: .8;
+            }
+        }
+    
+        &-9 {
+            @media screen and (min-width: 576px) {
+                opacity: .9;
+            }
+        }
+    
+        &-full {
+            @media screen and (min-width: 576px) {
+                opacity: 1;
+            }
+        }
+    } 
+}
+
+//query md
+.md\: {
+    &#{$utility-name} {
+        &-1 {
+            @media screen and (min-width: 768px) {
+                opacity: .1;
+            }
+        }
+    
+        &-2 {
+            @media screen and (min-width: 768px) {
+                opacity: .2;
+            }
+        }
+    
+        &-3 {
+            @media screen and (min-width: 768px) {
+                opacity: .3;
+            }
+        }
+    
+        &-4 {
+            @media screen and (min-width: 768px) {
+                opacity: .4;
+            }
+        }
+    
+        &-5 {
+            @media screen and (min-width: 768px) {
+                opacity: .5;
+            }
+        }
+    
+        &-6 {
+            @media screen and (min-width: 768px) {
+                opacity: .6;
+            }
+        }
+    
+        &-7 {
+            @media screen and (min-width: 768px) {
+                opacity: .7;
+            }
+        }
+    
+        &-8 {
+            @media screen and (min-width: 768px) {
+                opacity: .8;
+            }
+        }
+    
+        &-9 {
+            @media screen and (min-width: 768px) {
+                opacity: .9;
+            }
+        }
+    
+        &-full {
+            @media screen and (min-width: 768px) {
+                opacity: 1;
+            }
+        }
+    } 
+}
+
+//query lg
+.lg\: {
+    &#{$utility-name} {
+        &-1 {
+            @media screen and (min-width: 992px) {
+                opacity: .1;
+            }
+        }
+    
+        &-2 {
+            @media screen and (min-width: 992px) {
+                opacity: .2;
+            }
+        }
+    
+        &-3 {
+            @media screen and (min-width: 992px) {
+                opacity: .3;
+            }
+        }
+    
+        &-4 {
+            @media screen and (min-width: 992px) {
+                opacity: .4;
+            }
+        }
+    
+        &-5 {
+            @media screen and (min-width: 992px) {
+                opacity: .5;
+            }
+        }
+    
+        &-6 {
+            @media screen and (min-width: 992px) {
+                opacity: .6;
+            }
+        }
+    
+        &-7 {
+            @media screen and (min-width: 992px) {
+                opacity: .7;
+            }
+        }
+    
+        &-8 {
+            @media screen and (min-width: 992px) {
+                opacity: .8;
+            }
+        }
+    
+        &-9 {
+            @media screen and (min-width: 992px) {
+                opacity: .9;
+            }
+        }
+    
+        &-full {
+            @media screen and (min-width: 992px) {
+                opacity: 1;
+            }
+        }
+    } 
+}
+
+//query xl
+.xl\: {
+    &#{$utility-name} {
+        &-1 {
+            @media screen and (min-width: 1200px) {
+                opacity: .1;
+            }
+        }
+    
+        &-2 {
+            @media screen and (min-width: 1200px) {
+                opacity: .2;
+            }
+        }
+    
+        &-3 {
+            @media screen and (min-width: 1200px) {
+                opacity: .3;
+            }
+        }
+    
+        &-4 {
+            @media screen and (min-width: 1200px) {
+                opacity: .4;
+            }
+        }
+    
+        &-5 {
+            @media screen and (min-width: 1200px) {
+                opacity: .5;
+            }
+        }
+    
+        &-6 {
+            @media screen and (min-width: 1200px) {
+                opacity: .6;
+            }
+        }
+    
+        &-7 {
+            @media screen and (min-width: 1200px) {
+                opacity: .7;
+            }
+        }
+    
+        &-8 {
+            @media screen and (min-width: 1200px) {
+                opacity: .8;
+            }
+        }
+    
+        &-9 {
+            @media screen and (min-width: 1200px) {
+                opacity: .9;
+            }
+        }
+    
+        &-full {
+            @media screen and (min-width: 1200px) {
+                opacity: 1;
+            }
+        }
+    } 
+}
+
+//query xxl
+.xxl\: {
+    &#{$utility-name} {
+        &-1 {
+            @media screen and (min-width: 1600px) {
+                opacity: .1;
+            }
+        }
+    
+        &-2 {
+            @media screen and (min-width: 1600px) {
+                opacity: .2;
+            }
+        }
+    
+        &-3 {
+            @media screen and (min-width: 1600px) {
+                opacity: .3;
+            }
+        }
+    
+        &-4 {
+            @media screen and (min-width: 1600px) {
+                opacity: .4;
+            }
+        }
+    
+        &-5 {
+            @media screen and (min-width: 1600px) {
+                opacity: .5;
+            }
+        }
+    
+        &-6 {
+            @media screen and (min-width: 1600px) {
+                opacity: .6;
+            }
+        }
+    
+        &-7 {
+            @media screen and (min-width: 1600px) {
+                opacity: .7;
+            }
+        }
+    
+        &-8 {
+            @media screen and (min-width: 1600px) {
+                opacity: .8;
+            }
+        }
+    
+        &-9 {
+            @media screen and (min-width: 1600px) {
+                opacity: .9;
+            }
+        }
+    
+        &-full {
+            @media screen and (min-width: 1600px) {
+                opacity: 1;
+            }
+        }
+    } 
+}

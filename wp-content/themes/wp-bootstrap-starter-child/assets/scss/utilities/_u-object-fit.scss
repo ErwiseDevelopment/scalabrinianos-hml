@@ -1,0 +1,7 @@
+$utility-name: 'u-object-fit';
+
+.#{$utility-name} {
+    &-cover {
+        object-fit: cover !important;
+    }
+}

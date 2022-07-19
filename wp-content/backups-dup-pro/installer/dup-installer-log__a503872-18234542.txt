@@ -1,0 +1,1651 @@
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-0 START @ 01:20:17
+* VERSION: 4.0.0.1
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: Linux                                 |WINNT
+PHP VERSION_________: 7.4.30                                |7.4.29
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 7.4.29 | SAPI: apache2handler
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+SERVER______________: Apache/2.4.53 (Win64) OpenSSL/1.1.1n PHP/7.4.29
+DOC ROOT____________: "D:/Sites/htdocs/scalabrinianos-hml"
+LOG FILE 644________: false
+REQUEST URL_________: "http://localhost/scalabrinianos-hml/dup-installer/main.installer.php"
+********************************************************************************
+OVERWRITE PARAMS
+********************************************************************************
+INSTALLER INFO
+TEMPLATE____________: "base"
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "D:/Sites/htdocs/scalabrinianos-hml"
+URL_NEW_____________: "http://localhost/scalabrinianos-hml"
+********************************************************************************
+
+--------------------------------------
+ARCHIVE INFO
+--------------------------------------
+ARCHIVE NAME________: "D:\Sites\htdocs\scalabrinianos-hml\20220718_scalabrinianos_[HASH]_20220718234542_archive.daf"
+ARCHIVE SIZE________: 1.49GB
+CREATED_____________: 2022-07-18 23:45:42
+WP VERSION__________: 6.0.1
+DUP VERSION_________: 4.0.0.1
+DB VERSION__________: 5.6.41
+DB FILE SIZE________: 28.81MB
+DB TABLES___________: 37
+DB ROWS_____________: 15482
+URL HOME____________: https://www.scalabrinianos.com
+URL CORE____________: https://www.scalabrinianos.com
+URL CONTENT_________: https://www.scalabrinianos.com/wp-content
+URL UPLOAD__________: https://www.scalabrinianos.com/wp-content/uploads
+URL PLUGINS_________: https://www.scalabrinianos.com/wp-content/plugins
+URL MU PLUGINS______: https://www.scalabrinianos.com/wp-content/mu-plugins
+URL THEMES__________: https://www.scalabrinianos.com/wp-content/themes
+PATH HOME___________: /home2/scalabrinianos/public_html
+PATH ABS____________: /home2/scalabrinianos/public_html
+PATH WPCONFIG_______: /home2/scalabrinianos/public_html
+PATH WPCONTENT______: /home2/scalabrinianos/public_html/wp-content
+PATH UPLOADS________: /home2/scalabrinianos/public_html/wp-content/uploads
+PATH PLUGINS________: /home2/scalabrinianos/public_html/wp-content/plugins
+PATH MUPLUGINS______: /home2/scalabrinianos/public_html/wp-content/mu-plugins
+PATH THEMES_________: /home2/scalabrinianos/public_html/wp-content/themes
+***  PLUGINS ***
+PLUGIN [SLUG:advanced-custom-fields/acf.php                    ][ON:false] Advanced Custom Fields
+PLUGIN [SLUG:acf-repeater/acf-repeater.php                     ][ON:true ] Advanced Custom Fields: Repeater Field
+PLUGIN [SLUG:advanced-custom-fields-pro/acf.php                ][ON:true ] Advanced Custom Fields PRO
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:false] Classic Editor
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ] Contact Form 7
+PLUGIN [SLUG:duplicate-page/duplicatepage.php                  ][ON:true ] Duplicate Page
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:false] Duplicator
+PLUGIN [SLUG:duplicator-pro/duplicator-pro.php                 ][ON:true ] Duplicator Pro
+PLUGIN [SLUG:olympus-google-fonts/olympus-google-fonts.php     ][ON:true ] Fonts Plugin | Google Fonts Typography
+PLUGIN [SLUG:cookie-law-info/cookie-law-info.php               ][ON:true ] GDPR Cookie Consent
+PLUGIN [SLUG:gtranslate/gtranslate.php                         ][ON:true ] GTranslate
+PLUGIN [SLUG:insert-headers-and-footers/ihaf.php               ][ON:true ] Insert Headers and Footers
+PLUGIN [SLUG:simple-share-buttons-adder/simple-share-buttons-adder.php][ON:true ] Simple Share Buttons Adder
+PLUGIN [SLUG:revslider/revslider.php                           ][ON:true ] Slider Revolution
+PLUGIN [SLUG:updraftplus/updraftplus.php                       ][ON:true ] UpdraftPlus - Backup/Restore
+PLUGIN [SLUG:comments-from-facebook/facebook-comment.php       ][ON:true ] Wpdevart Social comments
+PLUGIN [SLUG:wordpress-seo/wp-seo.php                          ][ON:true ] Yoast SEO
+--------------------------------------
+--------------------------------------
+
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[D:\Sites\htdocs\scalabrinianos-hml\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.12695]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[D:\Sites\htdocs\scalabrinianos-hml\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.05231]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+TEST DUPX_Validation_test_archive_check result: passed
+TEST DUPX_Validation_test_owrinstall result: skip
+TEST DUPX_Validation_test_recovery result: skip
+TEST DUPX_Validation_test_manual_extraction result: good
+TEST DUPX_Validation_test_dbonly_iswordpress result: skip
+TEST DUPX_Validation_test_package_age result: good
+TEST DUPX_Validation_test_can_replace result: passed
+TEST DUPX_Validation_test_managed_supported result: skip
+TEST DUPX_Validation_test_php_version result: good
+TEST DUPX_Validation_test_open_basedir result: good
+TEST DUPX_Validation_test_extensions result: good
+TEST DUPX_Validation_test_mysql_connect result: passed
+TEST DUPX_Validation_test_timeout result: good
+TEST DUPX_Validation_test_wordfence result: good
+TEST DUPX_Validation_test_managed_tprefix result: skip
+TEST DUPX_Validation_test_iswritable result: passed
+TEST DUPX_Validation_test_disk_space result: good
+TEST DUPX_Validation_test_cpnl_connection result: skip
+TEST DUPX_Validation_test_cpnl_new_user result: skip
+TEST DUPX_Validation_test_db_host_name result: passed
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'erwise39_rooter	'@'191.182.176.92' (using password: YES) [CODE:2|FILE:D:\Sites\htdocs\scalabrinianos-hml\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'erwise39_rooter	'@'191.182.176.92' (using password: YES)[ERRNO:1045]
+TEST DUPX_Validation_test_db_connection result: failed
+TEST DUPX_Validation_test_db_version result: skip
+TEST DUPX_Validation_test_db_create result: skip
+TEST DUPX_Validation_test_db_visibility result: skip
+TEST DUPX_Validation_test_db_manual_tabels_count result: skip
+TEST DUPX_Validation_test_db_user_perms result: skip
+TEST DUPX_Validation_test_db_custom_queries result: skip
+TEST DUPX_Validation_test_db_supported_charset result: skip
+TEST DUPX_Validation_test_db_gtid_mode result: skip
+TEST DUPX_Validation_test_db_supported_default_charset result: skip
+TEST DUPX_Validation_test_db_case_sensitive_tables result: skip
+TEST DUPX_Validation_test_db_cleanup result: skip
+TEST DUPX_Validation_test_db_user_cleanup result: skip
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[D:\Sites\htdocs\scalabrinianos-hml\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.03993]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+TEST DUPX_Validation_test_archive_check result: passed
+TEST DUPX_Validation_test_owrinstall result: skip
+TEST DUPX_Validation_test_recovery result: skip
+TEST DUPX_Validation_test_manual_extraction result: good
+TEST DUPX_Validation_test_dbonly_iswordpress result: skip
+TEST DUPX_Validation_test_package_age result: good
+TEST DUPX_Validation_test_can_replace result: passed
+TEST DUPX_Validation_test_managed_supported result: skip
+TEST DUPX_Validation_test_php_version result: good
+TEST DUPX_Validation_test_open_basedir result: good
+TEST DUPX_Validation_test_extensions result: good
+TEST DUPX_Validation_test_mysql_connect result: passed
+TEST DUPX_Validation_test_timeout result: good
+TEST DUPX_Validation_test_wordfence result: good
+TEST DUPX_Validation_test_managed_tprefix result: skip
+TEST DUPX_Validation_test_iswritable result: passed
+TEST DUPX_Validation_test_disk_space result: good
+TEST DUPX_Validation_test_cpnl_connection result: skip
+TEST DUPX_Validation_test_cpnl_new_user result: skip
+TEST DUPX_Validation_test_db_host_name result: passed
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'erwise39_rooter	'@'191.182.176.92' (using password: YES) [CODE:2|FILE:D:\Sites\htdocs\scalabrinianos-hml\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'erwise39_rooter	'@'191.182.176.92' (using password: YES)[ERRNO:1045]
+TEST DUPX_Validation_test_db_connection result: failed
+TEST DUPX_Validation_test_db_version result: skip
+TEST DUPX_Validation_test_db_create result: skip
+TEST DUPX_Validation_test_db_visibility result: skip
+TEST DUPX_Validation_test_db_manual_tabels_count result: skip
+TEST DUPX_Validation_test_db_user_perms result: skip
+TEST DUPX_Validation_test_db_custom_queries result: skip
+TEST DUPX_Validation_test_db_supported_charset result: skip
+TEST DUPX_Validation_test_db_gtid_mode result: skip
+TEST DUPX_Validation_test_db_supported_default_charset result: skip
+TEST DUPX_Validation_test_db_case_sensitive_tables result: skip
+TEST DUPX_Validation_test_db_cleanup result: skip
+TEST DUPX_Validation_test_db_user_cleanup result: skip
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[D:\Sites\htdocs\scalabrinianos-hml\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.04220]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+TEST DUPX_Validation_test_archive_check result: passed
+TEST DUPX_Validation_test_owrinstall result: skip
+TEST DUPX_Validation_test_recovery result: skip
+TEST DUPX_Validation_test_manual_extraction result: good
+TEST DUPX_Validation_test_dbonly_iswordpress result: skip
+TEST DUPX_Validation_test_package_age result: good
+TEST DUPX_Validation_test_can_replace result: passed
+TEST DUPX_Validation_test_managed_supported result: skip
+TEST DUPX_Validation_test_php_version result: good
+TEST DUPX_Validation_test_open_basedir result: good
+TEST DUPX_Validation_test_extensions result: good
+TEST DUPX_Validation_test_mysql_connect result: passed
+TEST DUPX_Validation_test_timeout result: good
+TEST DUPX_Validation_test_wordfence result: good
+TEST DUPX_Validation_test_managed_tprefix result: skip
+TEST DUPX_Validation_test_iswritable result: passed
+TEST DUPX_Validation_test_disk_space result: good
+TEST DUPX_Validation_test_cpnl_connection result: skip
+TEST DUPX_Validation_test_cpnl_new_user result: skip
+TEST DUPX_Validation_test_db_host_name result: passed
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'erwise39_rooter	'@'191.182.176.92' (using password: YES) [CODE:2|FILE:D:\Sites\htdocs\scalabrinianos-hml\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'erwise39_rooter	'@'191.182.176.92' (using password: YES)[ERRNO:1045]
+TEST DUPX_Validation_test_db_connection result: failed
+TEST DUPX_Validation_test_db_version result: skip
+TEST DUPX_Validation_test_db_create result: skip
+TEST DUPX_Validation_test_db_visibility result: skip
+TEST DUPX_Validation_test_db_manual_tabels_count result: skip
+TEST DUPX_Validation_test_db_user_perms result: skip
+TEST DUPX_Validation_test_db_custom_queries result: skip
+TEST DUPX_Validation_test_db_supported_charset result: skip
+TEST DUPX_Validation_test_db_gtid_mode result: skip
+TEST DUPX_Validation_test_db_supported_default_charset result: skip
+TEST DUPX_Validation_test_db_case_sensitive_tables result: skip
+TEST DUPX_Validation_test_db_cleanup result: skip
+TEST DUPX_Validation_test_db_user_cleanup result: skip
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[D:\Sites\htdocs\scalabrinianos-hml\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.03151]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+TEST DUPX_Validation_test_archive_check result: passed
+TEST DUPX_Validation_test_owrinstall result: skip
+TEST DUPX_Validation_test_recovery result: skip
+TEST DUPX_Validation_test_manual_extraction result: good
+TEST DUPX_Validation_test_dbonly_iswordpress result: skip
+TEST DUPX_Validation_test_package_age result: good
+TEST DUPX_Validation_test_can_replace result: passed
+TEST DUPX_Validation_test_managed_supported result: skip
+TEST DUPX_Validation_test_php_version result: good
+TEST DUPX_Validation_test_open_basedir result: good
+TEST DUPX_Validation_test_extensions result: good
+TEST DUPX_Validation_test_mysql_connect result: passed
+TEST DUPX_Validation_test_timeout result: good
+TEST DUPX_Validation_test_wordfence result: good
+TEST DUPX_Validation_test_managed_tprefix result: skip
+TEST DUPX_Validation_test_iswritable result: passed
+TEST DUPX_Validation_test_disk_space result: good
+TEST DUPX_Validation_test_cpnl_connection result: skip
+TEST DUPX_Validation_test_cpnl_new_user result: skip
+TEST DUPX_Validation_test_db_host_name result: passed
+[PHP ERR][WARN] MSG:mysqli_connect(): (HY000/1045): Access denied for user 'erwise39_rooter	'@'191.182.176.92' (using password: YES) [CODE:2|FILE:D:\Sites\htdocs\scalabrinianos-hml\dup-installer\classes\class.db.php|LINE:48]
+DATABASE CONNECTION ERROR: Access denied for user 'erwise39_rooter	'@'191.182.176.92' (using password: YES)[ERRNO:1045]
+TEST DUPX_Validation_test_db_connection result: failed
+TEST DUPX_Validation_test_db_version result: skip
+TEST DUPX_Validation_test_db_create result: skip
+TEST DUPX_Validation_test_db_visibility result: skip
+TEST DUPX_Validation_test_db_manual_tabels_count result: skip
+TEST DUPX_Validation_test_db_user_perms result: skip
+TEST DUPX_Validation_test_db_custom_queries result: skip
+TEST DUPX_Validation_test_db_supported_charset result: skip
+TEST DUPX_Validation_test_db_gtid_mode result: skip
+TEST DUPX_Validation_test_db_supported_default_charset result: skip
+TEST DUPX_Validation_test_db_case_sensitive_tables result: skip
+TEST DUPX_Validation_test_db_cleanup result: skip
+TEST DUPX_Validation_test_db_user_cleanup result: skip
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[D:\Sites\htdocs\scalabrinianos-hml\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.02014]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+TEST DUPX_Validation_test_archive_check result: passed
+TEST DUPX_Validation_test_owrinstall result: skip
+TEST DUPX_Validation_test_recovery result: skip
+TEST DUPX_Validation_test_manual_extraction result: good
+TEST DUPX_Validation_test_dbonly_iswordpress result: skip
+TEST DUPX_Validation_test_package_age result: good
+TEST DUPX_Validation_test_can_replace result: passed
+TEST DUPX_Validation_test_managed_supported result: skip
+TEST DUPX_Validation_test_php_version result: good
+TEST DUPX_Validation_test_open_basedir result: good
+TEST DUPX_Validation_test_extensions result: good
+TEST DUPX_Validation_test_mysql_connect result: passed
+TEST DUPX_Validation_test_timeout result: good
+TEST DUPX_Validation_test_wordfence result: good
+TEST DUPX_Validation_test_managed_tprefix result: skip
+TEST DUPX_Validation_test_iswritable result: passed
+TEST DUPX_Validation_test_disk_space result: good
+TEST DUPX_Validation_test_cpnl_connection result: skip
+TEST DUPX_Validation_test_cpnl_new_user result: skip
+TEST DUPX_Validation_test_db_host_name result: passed
+TEST DUPX_Validation_test_db_connection result: passed
+TEST DUPX_Validation_test_db_version result: passed
+TEST DUPX_Validation_test_db_create result: skip
+TEST DUPX_Validation_test_db_visibility result: failed
+TEST DUPX_Validation_test_db_manual_tabels_count result: skip
+TEST DUPX_Validation_test_db_user_perms result: skip
+TEST DUPX_Validation_test_db_custom_queries result: skip
+TEST DUPX_Validation_test_db_supported_charset result: skip
+TEST DUPX_Validation_test_db_gtid_mode result: skip
+TEST DUPX_Validation_test_db_supported_default_charset result: skip
+TEST DUPX_Validation_test_db_case_sensitive_tables result: skip
+TEST DUPX_Validation_test_db_cleanup result: skip
+TEST DUPX_Validation_test_db_user_cleanup result: skip
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+STEP ACTION: "on-validate"
+TEST DUPX_Validation_test_archive_check result: passed
+LOG-TIME[D:\Sites\htdocs\scalabrinianos-hml\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.02963]  MESSAGE:END RENDER PAGE
+
+-------------------------
+AJAX ACTION [validate] START
+TEST DUPX_Validation_test_archive_check result: passed
+TEST DUPX_Validation_test_owrinstall result: skip
+TEST DUPX_Validation_test_recovery result: skip
+TEST DUPX_Validation_test_manual_extraction result: good
+TEST DUPX_Validation_test_dbonly_iswordpress result: skip
+TEST DUPX_Validation_test_package_age result: good
+TEST DUPX_Validation_test_can_replace result: passed
+TEST DUPX_Validation_test_managed_supported result: skip
+TEST DUPX_Validation_test_php_version result: good
+TEST DUPX_Validation_test_open_basedir result: good
+TEST DUPX_Validation_test_extensions result: good
+TEST DUPX_Validation_test_mysql_connect result: passed
+TEST DUPX_Validation_test_timeout result: good
+TEST DUPX_Validation_test_wordfence result: good
+TEST DUPX_Validation_test_managed_tprefix result: skip
+TEST DUPX_Validation_test_iswritable result: passed
+TEST DUPX_Validation_test_disk_space result: good
+TEST DUPX_Validation_test_cpnl_connection result: skip
+TEST DUPX_Validation_test_cpnl_new_user result: skip
+TEST DUPX_Validation_test_db_host_name result: passed
+TEST DUPX_Validation_test_db_connection result: passed
+TEST DUPX_Validation_test_db_version result: passed
+TEST DUPX_Validation_test_db_create result: skip
+TEST DUPX_Validation_test_db_visibility result: passed
+TEST DUPX_Validation_test_db_manual_tabels_count result: skip
+TEST DUPX_Validation_test_db_user_perms result: passed
+TEST DUPX_Validation_test_db_custom_queries result: passed
+TEST DUPX_Validation_test_db_supported_charset result: passed
+TEST DUPX_Validation_test_db_gtid_mode result: passed
+TEST DUPX_Validation_test_db_supported_default_charset result: passed
+TEST DUPX_Validation_test_db_case_sensitive_tables result: passed
+TEST DUPX_Validation_test_db_cleanup result: skip
+TEST DUPX_Validation_test_db_user_cleanup result: skip
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+********************************************************************************
+* DUPLICATOR-PRO: Install-Log
+* STEP-1 START @ 01:38:29
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+RESTORE BACKUP MODE_: false
+HOME URL NEW________: "http://localhost/scalabrinianos-hml"
+SITE URL NEW________: "http://localhost/scalabrinianos-hml"
+CONTENT URL NEW_____: "http://localhost/scalabrinianos-hml/wp-content"
+UPLOAD URL NEW______: "http://localhost/scalabrinianos-hml/wp-content/uploads"
+PLUGINS URL NEW_____: "http://localhost/scalabrinianos-hml/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://localhost/scalabrinianos-hml/wp-content/mu-plugins"
+HOME PATH NEW_______: "D:/Sites/htdocs/scalabrinianos-hml"
+SITE PATH NEW_______: "D:/Sites/htdocs/scalabrinianos-hml"
+CONTENT PATH NEW____: "D:/Sites/htdocs/scalabrinianos-hml/wp-content"
+UPLOAD PATH NEW_____: "D:/Sites/htdocs/scalabrinianos-hml/wp-content/uploads"
+PLUGINS PATH NEW____: "D:/Sites/htdocs/scalabrinianos-hml/wp-content/plugins"
+MUPLUGINS PATH NEW__: "D:/Sites/htdocs/scalabrinianos-hml/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+ARCHIVE ENGINE______: "duparchive"
+SET DIR PERMS_______: false
+DIR PERMS VALUE_____: 755
+SET FILE PERMS______: false
+FILE PERMS VALUE____: 644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+REMOVE RENDUNDANT___: false
+********************************************************************************
+
+--------------------------------------
+
+PATHS MAPPING_______: "D:/Sites/htdocs/scalabrinianos-hml"
+--------------------------------------
+
+
+EXTRACTION: DUP ARCHIVE >>> START
+ARCHIVE OFFSET 0
+CHUNK COMPLETE - RUNTIME: 4.4808 sec. - Files processed: 1,320 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 5305032
+CHUNK COMPLETE - RUNTIME: 4.5985 sec. - Files processed: 2,625 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 9001196
+CHUNK COMPLETE - RUNTIME: 4.7198 sec. - Files processed: 3,780 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 16417767
+CHUNK COMPLETE - RUNTIME: 4.7156 sec. - Files processed: 5,660 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 23594484
+CHUNK COMPLETE - RUNTIME: 4.5807 sec. - Files processed: 7,482 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 29991832
+CHUNK COMPLETE - RUNTIME: 4.7405 sec. - Files processed: 8,041 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 64235916
+CHUNK COMPLETE - RUNTIME: 5.2020 sec. - Files processed: 8,239 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 232749275
+CHUNK COMPLETE - RUNTIME: 5.0634 sec. - Files processed: 8,263 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 332427885
+CHUNK COMPLETE - RUNTIME: 4.6431 sec. - Files processed: 8,421 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 506738394
+CHUNK COMPLETE - RUNTIME: 4.7205 sec. - Files processed: 8,615 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 586621055
+CHUNK COMPLETE - RUNTIME: 4.8275 sec. - Files processed: 8,814 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 709673882
+CHUNK COMPLETE - RUNTIME: 4.9511 sec. - Files processed: 9,055 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 935030102
+CHUNK COMPLETE - RUNTIME: 4.9536 sec. - Files processed: 9,240 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 1023695201
+CHUNK COMPLETE - RUNTIME: 5.1836 sec. - Files processed: 9,383 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 1130601865
+CHUNK COMPLETE - RUNTIME: 4.7671 sec. - Files processed: 9,962 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 1284968752
+CHUNK COMPLETE - RUNTIME: 4.8862 sec. - Files processed: 10,378 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 1379024559
+CHUNK COMPLETE - RUNTIME: 5.0571 sec. - Files processed: 10,858 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 1482596239
+CHUNK COMPLETE - RUNTIME: 5.0300 sec. - Files processed: 11,428 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 1574589514
+CHUNK COMPLETE - RUNTIME: 5.1008 sec. - Files processed: 12,485 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 1585731591
+CHUNK COMPLETE - RUNTIME: 4.5824 sec. - Files processed: 13,461 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [extract] START
+ARCHIVE OFFSET 1594433645
+
+
+EXTRACTION: DUP ARCHIVE >>> DONE
+CHECK CONFG FILES IN CURRENT HOSTS
+
+EXTRACTION COMPLETE @ 01:40:12 - RUNTIME: 103.0377 sec. - Files processed: 15,413 of 15,413
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+
+
+
+********************************************************************************
+* DUPLICATOR PRO INSTALL-LOG
+* STEP-2 START @ 01:40:13
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+KEEP USERS__________: 0
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "DEFAULT"
+MYSQL MODE OPTS_____: ""
+NON-BREAKING SPACES_: false
+CHARSET_____________: "utf8"
+CHARSET FB__________: false
+CHARSET FB VAL______: ""
+COLLATE_____________: ""
+COLLATE FB__________: false
+COLLATE FB VAL______: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 5.6.41 -- Build Server: 5.6.41
+FILE SIZE:	dup-database__[HASH].sql (16.69MB)
+TIMEOUT:	5000
+MAXPACK:	268435456
+SQLMODE-GLOBAL:	NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:NO_AUTO_VALUE_ON_ZERO
+--------------------------------------
+TABLES AND ROWS IN ARCHIVE
+--------------------------------------
+TABLE "wp_cli_cookie_scan"______________________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_categories"___________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_cookies"______________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_url"__________________________[ROWS:     0]
+TABLE "wp_cli_scripts"__________________________________[ROWS:     4]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     0]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   408]
+TABLE "wp_postmeta"_____________________________________[ROWS:10,774]
+TABLE "wp_posts"________________________________________[ROWS: 1,426]
+TABLE "wp_revslider_css"________________________________[ROWS:   109]
+TABLE "wp_revslider_css_bkp"____________________________[ROWS:    47]
+TABLE "wp_revslider_layer_animations"___________________[ROWS:     0]
+TABLE "wp_revslider_layer_animations_bkp"_______________[ROWS:     0]
+TABLE "wp_revslider_navigations"________________________[ROWS:     0]
+TABLE "wp_revslider_navigations_bkp"____________________[ROWS:     0]
+TABLE "wp_revslider_sliders"____________________________[ROWS:     0]
+TABLE "wp_revslider_sliders_bkp"________________________[ROWS:     0]
+TABLE "wp_revslider_slides"_____________________________[ROWS:     2]
+TABLE "wp_revslider_slides_bkp"_________________________[ROWS:     0]
+TABLE "wp_revslider_static_slides"______________________[ROWS:     0]
+TABLE "wp_revslider_static_slides_bkp"__________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:   100]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    17]
+TABLE "wp_termmeta"_____________________________________[ROWS:    24]
+TABLE "wp_terms"________________________________________[ROWS:    17]
+TABLE "wp_usermeta"_____________________________________[ROWS:   173]
+TABLE "wp_users"________________________________________[ROWS:     3]
+TABLE "wp_yoast_indexable"______________________________[ROWS:   855]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS: 1,338]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:    23]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:    28]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:   129]
+--------------------------------------
+
+
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+DATABASE CHUNK: CREATION TABLE MARKER FOUND
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 25237
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 1379276
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 2338323
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 3130264
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 4124820
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 4899095
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 5659867
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 6825472
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 7652875
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 8700640
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 9995964
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 10798728
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 11774449
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 12855429
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 13635289
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 14460197
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 15477374
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 16451638
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 16625793
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 16670216
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 17447143
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [dbinstall] START
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 17504589
+Auto Commit set to false successfully
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+CLEANUP ROUTINE START
+Starting Cleanup Routine...
+CLEANUP ROUTINE COMPLETE
+ERRORS FOUND:	0
+DROPPED TABLES:	35
+RENAMED TABLES:	0
+QUERIES RAN:	129
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_cli_cookie_scan"______________________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_categories"___________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_cookies"______________________[ROWS:     0]
+TABLE "wp_cli_cookie_scan_url"__________________________[ROWS:     0]
+TABLE "wp_cli_scripts"__________________________________[ROWS:     4]
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     0]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     6]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   360]
+TABLE "wp_postmeta"_____________________________________[ROWS: 15409]
+TABLE "wp_posts"________________________________________[ROWS:  1737]
+TABLE "wp_revslider_css"________________________________[ROWS:   109]
+TABLE "wp_revslider_css_bkp"____________________________[ROWS:    47]
+TABLE "wp_revslider_layer_animations"___________________[ROWS:     0]
+TABLE "wp_revslider_layer_animations_bkp"_______________[ROWS:     0]
+TABLE "wp_revslider_navigations"________________________[ROWS:     0]
+TABLE "wp_revslider_navigations_bkp"____________________[ROWS:     0]
+TABLE "wp_revslider_sliders"____________________________[ROWS:     1]
+TABLE "wp_revslider_sliders_bkp"________________________[ROWS:     0]
+TABLE "wp_revslider_slides"_____________________________[ROWS:     2]
+TABLE "wp_revslider_slides_bkp"_________________________[ROWS:     0]
+TABLE "wp_revslider_static_slides"______________________[ROWS:     1]
+TABLE "wp_revslider_static_slides_bkp"__________________[ROWS:     0]
+TABLE "wp_term_relationships"___________________________[ROWS:   102]
+TABLE "wp_term_taxonomy"________________________________[ROWS:    19]
+TABLE "wp_termmeta"_____________________________________[ROWS:    24]
+TABLE "wp_terms"________________________________________[ROWS:    19]
+TABLE "wp_usermeta"_____________________________________[ROWS:   204]
+TABLE "wp_users"________________________________________[ROWS:     5]
+TABLE "wp_yoast_indexable"______________________________[ROWS:   949]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:  1341]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:    23]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:    33]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:   145]
+
+DATABASE CACHE/TRANSITIENT [ROWS:    56]
+
+INSERT DATA RUNTIME: 238.5365 sec.
+STEP-2 COMPLETE @ 01:44:18 - RUNTIME: 238.5368 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST
+====================================
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [init][][]
+
+
+********************************************************************************
+DUPLICATOR PRO INSTALL-LOG
+STEP-3 START @ 01:44:19
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8"
+CHARSET CLIENT:	"utf8"
+********************************************************************************
+OPTIONS:
+blogname______________: "Scalabrinianos"
+url_old_______________: "https://www.scalabrinianos.com"
+url_new_______________: "http://localhost/scalabrinianos-hml"
+siteurl_______________: "http://localhost/scalabrinianos-hml"
+path_new______________: "D:/Sites/htdocs/scalabrinianos-hml"
+path_old______________: "/home2/scalabrinianos/public_html"
+replace_mode__________: "legacy"
+empty_schedule_storage: true
+mode_chunking_________: 2
+wp_username___________: ""
+wp_mail_______________: ""
+wp_nickname___________: ""
+wp_first_name_________: ""
+wp_last_name__________: ""
+cross_search__________: true
+postguid______________: false
+fullsearch____________: false
+replaceMail___________: false
+maxSerializeStrlen____: 4000000
+auth_keys_and_salts___: false
+mu_replace____________: Array
+(
+)
+
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 9223372036854775807], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = 1], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 512M], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 50
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+
+EVALUATE TABLE: "wp_cli_cookie_scan"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_cookie_scan_categories"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_cookie_scan_cookies"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_cookie_scan_url"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_cli_scripts"__________________________________[ROWS:     4][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_cli_scripts][0]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+	
+STEP-3 CHUNK STOP @ 01:44:25 - RUNTIME: 6.9982 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   360][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+	
+STEP-3 CHUNK STOP @ 01:44:35 - RUNTIME: 10.4282 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS: 15409][PG:  16][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][1]
+	
+STEP-3 CHUNK STOP @ 01:44:44 - RUNTIME: 8.3282 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][2]
+
+STEP-3 CHUNK STOP @ 01:44:51 - RUNTIME: 7.1605 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][3]
+
+STEP-3 CHUNK STOP @ 01:44:58 - RUNTIME: 6.7280 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][4]
+
+STEP-3 CHUNK STOP @ 01:45:04 - RUNTIME: 5.8419 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][5]
+
+STEP-3 CHUNK STOP @ 01:45:14 - RUNTIME: 10.2563 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][6]
+
+STEP-3 CHUNK STOP @ 01:45:27 - RUNTIME: 13.3523 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][7]
+
+STEP-3 CHUNK STOP @ 01:45:44 - RUNTIME: 16.9202 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][8]
+
+STEP-3 CHUNK STOP @ 01:46:05 - RUNTIME: 20.3376 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][9]
+
+STEP-3 CHUNK STOP @ 01:46:19 - RUNTIME: 13.7604 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][10]
+
+STEP-3 CHUNK STOP @ 01:46:37 - RUNTIME: 18.3847 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][11]
+
+STEP-3 CHUNK STOP @ 01:46:47 - RUNTIME: 10.1625 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][12]
+
+STEP-3 CHUNK STOP @ 01:47:04 - RUNTIME: 16.9728 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][13]
+
+STEP-3 CHUNK STOP @ 01:47:15 - RUNTIME: 11.0548 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][14]
+
+STEP-3 CHUNK STOP @ 01:47:22 - RUNTIME: 6.5494 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_postmeta][15]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:  1737][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+	
+STEP-3 CHUNK STOP @ 01:50:24 - RUNTIME: 181.9319 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+CHUNK ACTION: CURRENT [search_replace][wp_posts][1]
+
+STEP-3 CHUNK STOP @ 01:52:36 - RUNTIME: 132.0958 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_revslider_css"________________________________[ROWS:   109][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css][0]
+
+EVALUATE TABLE: "wp_revslider_css_bkp"____________________________[ROWS:    47][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_css_bkp][0]
+
+EVALUATE TABLE: "wp_revslider_layer_animations"___________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_layer_animations_bkp"_______________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_navigations_bkp"____________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_sliders"____________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_sliders][0]
+
+EVALUATE TABLE: "wp_revslider_sliders_bkp"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_slides"_____________________________[ROWS:     2][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_slides][0]
+	
+STEP-3 CHUNK STOP @ 01:52:45 - RUNTIME: 9.0351 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_revslider_slides_bkp"_________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_revslider_static_slides"______________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_revslider_static_slides][0]
+
+EVALUATE TABLE: "wp_revslider_static_slides_bkp"__________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:   102][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_relationships][0]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:    24][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_termmeta][0]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:    19][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+	
+STEP-3 CHUNK STOP @ 01:52:54 - RUNTIME: 8.5786 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:   204][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:   949][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_indexable][0]
+	
+STEP-3 CHUNK STOP @ 01:55:45 - RUNTIME: 171.3380 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:  1341][PG:   2][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_indexable_hierarchy][0]
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_indexable_hierarchy][1]
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    23][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_migrations][0]
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:    33][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_primary_term][0]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:   145][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"/home2/scalabrinianos/public_html" ===============> "D:/Sites/htdocs/scalabrinianos-hml"
+	SEARCH[urlnd]  2:"https://www.scalabrinianos.com" ==================> "http://localhost/scalabrinianos-hml"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_seo_links][0]
+	
+STEP-3 CHUNK STOP @ 01:56:09 - RUNTIME: 23.7947 sec. 
+
+
+	AJAX ACTION [webupdate] SUCCESS
+	-------------------------
+
+
+-------------------------
+AJAX ACTION [webupdate] START
+--------------------------------------
+SCANNED:	Tables:37 	|	 Rows:20540 	|	 Cells:162223 
+UPDATED:	Tables:9 	|	 Rows:3419 	|	 Cells:5627 
+ERRORS:		0 
+RUNTIME:	710.450500 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+CHUNK ACTION: CURRENT [rem_licenze_key][][]
+
+====================================
+REMOVE LICENSE KEY
+====================================
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:D:/Sites/htdocs/scalabrinianos-hml/wp-config.php
+New htaccess file created:D:/Sites/htdocs/scalabrinianos-hml/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE WP_HOME "http://localhost/scalabrinianos-hml"
+	UPDATE WP_SITEURL "http://localhost/scalabrinianos-hml"
+	UPDATE DB_NAME ""erwise39_scalabrinianos""
+	UPDATE DB_USER ""erwise39_rooter""
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""50.116.86.60:3306""
+	WP CONFIG UPDATE WP_DEBUG false
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+Installer Host Htaccess path: 
+- Preparing .htaccess file with basic setup.
+- Successfully updated the .htaccess file setting.
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+Activated plugins listed here will be deactivated: Array
+(
+)
+
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+- Removed '0' schedule storage items
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+NOTICES TEST
+====================================
+WP-CONFIG NOTICE: The wp-config.php has following values set [WP_SITEURL, WP_HOME].  
+Please validate these values are correct by opening the file and checking the values.
+See the codex link for more details: https://codex.wordpress.org/Editing_wp-config.php
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 01:56:13 - RUNTIME: 3.2297 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[D:\Sites\htdocs\scalabrinianos-hml\dup-installer\ctrls\ctrl.base.php:236][DELTA:   0.21518]  MESSAGE:END RENDER PAGE

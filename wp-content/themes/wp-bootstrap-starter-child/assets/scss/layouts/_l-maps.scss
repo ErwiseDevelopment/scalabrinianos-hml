@@ -1,0 +1,11 @@
+$layout-name: 'l-maps';
+
+.#{$layout-name} {
+    p {
+        margin-bottom: 0;
+    }
+    
+    iframe {
+        width: 100%;
+    }
+}

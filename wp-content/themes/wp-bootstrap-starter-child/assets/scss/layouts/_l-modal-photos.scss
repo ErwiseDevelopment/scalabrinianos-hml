@@ -1,0 +1,88 @@
+$layout-name: 'l-modal-photos';
+
+.#{$layout-name} {
+	width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+	transition: all .6s;
+	opacity: 0;
+	visibility: hidden;
+    position: fixed;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 9;
+
+    &.is-active {
+        opacity: 1;
+        visibility: visible;
+    }
+
+    &__overlay {
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        position: absolute;
+        z-index: 0;
+    }
+
+    &__close {
+        top: 2rem;
+        right: 2rem;
+        position: absolute;
+        font-size: 3rem;
+        font-weight: 700;
+        font-family: cursive;
+        color: $color-folk-white;
+        cursor: pointer;
+
+        @media screen and (max-width: 575px) {
+            left: 50%;
+            right: unset;
+            transform: translateX(-50%);
+            font-size: 4rem;
+        }
+    }
+
+    &__image {
+        object-fit: cover;
+    }
+}
+
+.swiper-button-prev-modal-photos,
+.swiper-button-next-modal-photos {
+    &::after {
+        font-size: 1.875rem;
+        font-weight: 900;
+        font-family: 'Montserrat', sans-serif;
+        color: $color-folk-white !important;
+    }
+}
+
+.swiper-button-prev-modal-photos {
+    left: -3rem;
+
+    @media screen and (max-width: 575px) {
+        top: calc(100% + 2rem);
+        left: 3rem;
+    }
+
+    &::after {
+        content: '<';
+	    font-size: 3rem;
+    }
+}
+
+.swiper-button-next-modal-photos {
+    right: -3rem;
+
+    @media screen and (max-width: 575px) {
+        top: calc(100% + 2rem);
+        right: 3rem;
+    }
+
+    &::after {
+        content: '>';	
+        font-size: 3rem;
+    }
+}
