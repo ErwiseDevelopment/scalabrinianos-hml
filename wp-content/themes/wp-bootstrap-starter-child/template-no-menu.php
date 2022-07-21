@@ -61,7 +61,7 @@ get_header();
 
                             <div class="mx-auto mb-4 u-bg-folk-night-rider"style="width:180px;height:10px"></div>
 
-                            <div class="row <?php echo have_rows( 'galeria' ) ? 'justify-content-start' : 'justify-content-center'; ?>">
+                            <!-- <div class="row <?php echo have_rows( 'galeria' ) ? 'justify-content-start' : 'justify-content-center'; ?>">
 
                                 <div class="l-template-santos__col-child col-lg-3 <?php echo have_rows( 'galeria' ) ? 'd-block' : 'd-none'; ?> my-2 my-lg-0">
 
@@ -82,12 +82,12 @@ get_header();
                                             endif;
                                         ?>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <div class="l-template-santos__col-child col-lg-9 my-2 my-lg-0">
 
                                     <span class="d-bloc ku-font-size-14 xxl:u-font-size-18 u-font-weight-regular">
-                                        <?php echo get_sub_field( 'descricao' ) ?>
+                                            <?php the_content() ?>
                                     </span>
 
                                     <!-- <p class="u-font-size-14 xxl:u-font-size-18 u-font-weight-regular">

@@ -97,7 +97,7 @@ get_header();
                                                 <div class="col-12 my-2 my-lg-0">
 
                                                     <span class="d-bloc ku-font-size-14 xxl:u-font-size-18 u-font-weight-regular">
-                                                        <?php echo get_sub_field( 'descricao' ) ?>
+                                                    <?php the_content() ?>
                                                     </span>
                                                 </div>
 
